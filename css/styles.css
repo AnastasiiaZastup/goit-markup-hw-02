@@ -23,6 +23,37 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+.list{
+    list-style: none;
+}
+
+.logo-color {
+    color: var(--main-color);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-adress-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--one-color);
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+}
+.link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 .logo-color {
     color: var(--main-color);
@@ -63,13 +94,7 @@ body {
     color: #404bbf;
 }
 
-.lisst {
-    font-style: normal;
-}
 
-.defolt {
-    text-decoration:none;
-}
 
 /*Секція перша*/
 .studio {
@@ -213,10 +238,6 @@ body {
     color: var(--text-color);
     } 
 
-.porfolio-section  .section-link {
-    color: var(--main-color);
-    text-decoration: none;
-}
 
 .logoo-link {
     font-family: "Raleway", sans-serif;
@@ -227,8 +248,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-
-.btn {
-    font-family: "Roboto", sans-serif;
-
+.links {
+    text-decoration: none;
 }
