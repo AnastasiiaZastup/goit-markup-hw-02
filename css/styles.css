@@ -1,0 +1,164 @@
+:root {
+    --accent-color: #E5E5E5;
+    --main-color: #2E2F42;
+    --text-color: #FFFFFF;
+    --btn-color: #4D5AE5;
+    --back-color: #E7E9FC;
+    --end-color: #F4F4FD;
+    --one-color: #434455;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color)
+}
+.logo-link {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: var(--btn-color);
+    text-decoration: none;
+}
+.logo-color {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.header-link:hover{
+    color: var(--btn-color);
+}
+
+.header-link:focus{
+    color: var(--btn-color);
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.header-adress-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--one-color);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/*Секція перша*/
+.studio {
+    background-color: var(--main-color);
+};
+
+.studio .firsth {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.studio .first-btn {
+    background-color: var(--btn-color);
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/*Секція друга*/
+
+.choose {
+    background-color: var(--text-color);
+}
+.choose .first-choose {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-color);
+}
+
+.choose .second-choose {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-color);
+}
+
+/*Секція третя*/
+
+.work {
+    background-color: var(--text-color);
+}
+
+.work .first-work {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+/*Секція четверта*/
+
+.team {
+    background-color: var(--end-color);
+}
+
+.team .people-team-one {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1px;
+    background-color: var(--text-color);
+}
+.team .second-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-color);
+}
+.team .third-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-color);
+}
+/*Секція footer*/
+.end {
+    background-color: var(--main-color);
+}
+.end .end-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.end .logo-color-two {
+    color: var(--end-color);
+}
+
+.porfolio-section .second-btn {
+    color: var(--btn-color);
+    background-color: var(--back-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.porfolio-section .second-btn:hover{
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    }
+.porfolio-section .second-btn:focus{
+    background-color: var(--btn-color);
+    } 
+
+.porfolio-section  .section-port {
+    color: var(--main-color);
+}
