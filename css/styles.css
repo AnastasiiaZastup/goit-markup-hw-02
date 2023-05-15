@@ -13,16 +13,26 @@ body {
     color:  var(--one-color);
     background-color: var(--text-color);
 }
-.link {
+.link-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--btn-color);
-    text-decoration: none;
+
     text-transform: uppercase;
 }
+.link {
+    text-decoration: none;
+}
+.header-header {
+    text-decoration: none;
+}
+.list-header-link {
+    text-decoration: none;
+}
+
 .list{
     list-style: none;
 }
@@ -40,7 +50,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--one-color);
-    text-decoration: none;
     font-style: normal;
     list-style: none;
     
@@ -59,7 +68,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    text-decoration: none;
 }
 
 .header-adress-link:hover {
@@ -230,9 +238,6 @@ body {
     text-transform: uppercase;
     }
 
-.links {
-    text-decoration: none;
-}
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -240,7 +245,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--btn-color);
-    text-decoration: none;
     text-transform: uppercase;
 }
 .logo-color-two {
