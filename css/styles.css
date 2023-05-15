@@ -68,7 +68,10 @@ body {
 .header-adress-link:focus {
     color: #404bbf;
 }
-
+.header-adress {
+    text-decoration:none;
+    font-style: normal;
+}
 
 
 /*Секція перша*/
@@ -219,24 +222,26 @@ body {
 .logoo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-size: 18px;
+     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-decoration: none;
     text-transform: uppercase;
-    color: #4d5ae5;
-}
+    }
+
 .links {
     text-decoration: none;
 }
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-size: 18px;
+     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-decoration: none;
     text-transform: uppercase;
-    color: #4d5ae5;
-    list-style: none;
 }
 .logo-color-two {
     color: #f4f4fd;
