@@ -43,24 +43,9 @@ body {
     text-decoration: none;
     font-style: normal;
     list-style: none;
-}
-.link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--btn-color);
-    text-decoration: none;
-    text-transform: uppercase;
+    
 }
 
-.logo-color {
-    color: var(--main-color);
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
 .header-link:hover{
     color: #404bbf;
 }
@@ -77,20 +62,10 @@ body {
     text-decoration: none;
 }
 
-.header-adress-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--one-color);
-    text-decoration: none;
-    font-style: normal;
-    list-style: none;
-}
-.lisst:hover {
+.header-adress-link:hover {
     color: #404bbf;
 }
-.lisst:focus {
+.header-adress-link:focus {
     color: #404bbf;
 }
 
@@ -207,16 +182,18 @@ body {
 /*Секція footer*/
 .end {
     background-color: var(--main-color);
+    text-decoration: none;
+    list-style: none;
 }
-.end .end-text {
+.end-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.end .logo-color-two {
-    color: var(--end-color);
+    text-decoration: none;
+    color:#F4F4FD;
+    list-style: none;
 }
 
 .second-btn {
@@ -250,4 +227,33 @@ body {
 }
 .links {
     text-decoration: none;
+}
+.logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    list-style: none;
+}
+.logo-color-two {
+    color: #f4f4fd;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    list-style: none;
+}
+.links-textt{ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.links-textt-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
